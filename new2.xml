@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Text>my name is Valentina 34 years old 1 pet 1000 $
+<name>Valentina</name>
+  <years>34</years>
+  <numberpet>1</numberpet>
+  <desiredSalary>1000$</desiredSalary>
 Любимый фильм - Моана
 любимый сериал - Майк и Молли
 любимая еда - бутер
