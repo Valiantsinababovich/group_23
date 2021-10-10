@@ -2,8 +2,8 @@
   <years>34</years>
   <numberpet>1</numberpet>
   <desiredSalary>1000$</desiredSalary>
-Любимый фильм - Моана
-любимый сериал - Майк и Молли
-любимая еда - бутер
-любимое время года - лето
-страна которую хотели бы посетить - США</Text>
+ <FavoriteMovie>Moana</FavoriteMovie>
+ <FavoriteTVShow>MikeAndMolly</FavoriteTVShow>
+ <FavoriteFood>sandwich</FavoriteFood>
+ <FavoriteSeason>summer</FavoriteSeason>
+ <CountryYouWouldLikeToVisit>USA</CountryYouWouldLikeToVisit>
