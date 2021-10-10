@@ -44,8 +44,29 @@ git push
  23. Сделать Commit changes (сохранить) изменения на веб интерфейсе - сохранила - нажав зеленую кнопку commit changes
  24. Синхронизировать внешний и локальный репозитории (слить изменения с внешнего репозитория) - 
  25. Отредактировать в веб интерфейсе содержание файла “new2.json” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате JSON.
+{
+ "FirsName": "Valentina",
+ "LastName": "Fursevich",
+ "Ages": 34,
+ "PetsNumber": 1,
+ "ExpectedSalary": 1000$,
+ "FavoriteMovie": "Moana",
+ "FavoriteTVShow": "MikeAndMolly",
+ "FavoriteFood": "sandwich",
+ "FavoriteSeason": "summer",
+ "CountryYouWouldLikeToVisit": "USA"
+}
  26. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  27. Синхронизировать внешний и локальный репозитории - git pull
- 28. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате XML.
+ 28. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате XML. <name>Valentina</name>
+  <years>34</years>
+  <numberpet>1</numberpet>
+  <desiredSalary>1000$</desiredSalary>
+ <FavoriteMovie>Moana</FavoriteMovie>
+ <FavoriteTVShow>MikeAndMolly</FavoriteTVShow>
+ <FavoriteFood>sandwich</FavoriteFood>
+ <FavoriteSeason>summer</FavoriteSeason>
+ <CountryYouWouldLikeToVisit>USA</CountryYouWouldLikeToVisit>
+
  29. Сделать Commit changes (сохранить) изменения на веб интерфейсе - сделано
  30. Синхронизировать внешний и локальный репозитории - git pull 
