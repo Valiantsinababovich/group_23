@@ -1,4 +1,8 @@
 {"id":1,
+<<<<<<<         HEAD
 	"money":5000
 
 "hello"}
+=======
+	"money":000}
+>>>>>>> billing
