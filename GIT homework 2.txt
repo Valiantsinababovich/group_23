@@ -1,0 +1,58 @@
+GitHub. HW_2
+1. На локальном репозитории сделать ветки для:
+- Postman  - git branch Postman
+- Jmeter - git branch Jmeter
+- CheckLists - git branch CheckLists
+- Bag Reports - git branch BagReports
+- SQL - git branch SQL
+- Charles - git branch Charles
+- Mobile testing - git branch MobileTesting
+
+
+2. Запушить все ветки на внешний репозиторий - push origin --all
+
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта - 
+
+Bag Reports
+Bag_id: номер.
+Title: что, где и когда происходит(при каких условиях)?
+Environment (окружение): на каком дивайсе и вв каком приложении(брйузере, программе) найден баг.
+Precondition: предусловие (действие) для воспроизведения бага.
+STR: шаги воспроизведения (повторить все действия, при который появляется баг).
+AR: актуальный результат (собственно сам баг).
+ER: ожидаемый результат (то, что должно быть).
+Attachments: картинка/видео воспроизведения бага.
+
+git commit -am "bagreports" 
+
+4. Запушить структуру багрепорта на внешний репозиторий - git push --set-upstream origin BagReports
+
+5. Вмержить ветку Bag Reports в Main
+git checout main
+git merge BagReports
+
+6. Запушить main на внешний репозиторий.
+git push
+
+7. В ветке CheckLists набросать структуру чек листа.
+Структура Чек-Листа
+1 Заголовок
+Описание проекта
+2 Подзаголовок
+Название функционала, отдельного элемента продукта (Например: Поле поиска)
+3 Краткое описание теста
+Буквально небольшое описание действия или пункта (Например: Ввести пароль латиницей)
+
+git add .
+git commit -am "checklist"
+
+8. Запушить структуру на внешний репозиторий
+git push --set-upstream origin CheckLists
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+Open a pull request
+Creat Pull Request
+Creat merge
+
+10. Синхронизировать Внешнюю и Локальную ветки Main
+git pull
